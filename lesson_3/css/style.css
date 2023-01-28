@@ -1,0 +1,54 @@
+@import url("reset.css");
+
+h2 {
+     color: #A101A6;
+}
+
+h3 {
+     color: #EE3C7E;
+}
+
+.general-info p {
+     color: #274E7D;
+}
+
+.navigation > ol {
+     color: #238D43;
+}
+
+.navigation-ballet-types li,
+.navigation-ballet-method li {
+     color: #A61300;
+}
+
+.orange {
+     color: #FF7400;
+}
+
+.blue {
+     color: #1B1BB3;
+}
+
+[class*="__container"] {
+     color: #565D66;
+}
+
+.tech-method__container > div {
+     color: #A67600;
+}
+
+.ballet-career ~ div {
+     color: #EE3C7E;
+}
+
+.see-also * {
+     color: #3375c2;
+}
+
+span {
+     color: #009999;
+}
+
+footer div + p {
+     color: #98F23D;
+}
