@@ -1,0 +1,99 @@
+@import url("reset.css");
+
+@font-face {
+     font-family: 'Poppins-Bold';
+     src: url('../fonts/Poppins-Bold.woff2') format('woff2'), url('../fonts/Poppins-Bold.woff') format('woff');
+     font-weight: 700;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Poppins-Light';
+     src: url('../fonts/Poppins-Light.woff2') format('woff2'), url('../fonts/Poppins-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+}
+
+body {
+background-color: #E5E5E5;
+}
+
+.container {
+     width: 1440px;
+     background-color: #F8F9FA;;
+     margin: 0px auto;
+}
+
+h1, h2 {
+     font-family: 'Poppins-Bold';
+     font-size: 25px;
+     font-weight: 700;
+     line-height: 40px;
+     color: #212529;
+     margin: 0px 312px 40px 312px;
+}
+
+h1, h2, p {
+     text-align: left;
+}
+
+h1 {
+     width: 400px;
+     padding-top: 40px;
+}
+
+h2 {
+     width: 605px;
+}
+
+p {
+     font-family: 'Poppins-Light';
+     font-size: 14px;
+     color: #6C757D;
+     line-height: 25px;
+     margin: 0px 312px 0px 312px;
+}
+
+.text-1, .text-2 {
+margin-bottom: 80px;
+}
+
+.text-3 {
+     padding-bottom: 40px;
+}
+
+.dessert {
+     margin: 0px 100px 80px 100px;
+}
+
+.pictures-line-list {
+font-size: 0;
+padding: 0px 100px 80px 100px;
+}
+
+li {
+     display: inline-block;
+}
+
+.img-1 {
+     margin-right: 15px;
+}
+
+.img-2 {
+     margin-left: 15px;
+}
+
+footer p {
+     text-align: center;
+     font-family: 'Poppins-Bold';
+     font-size: 40px;
+}
+
+footer {
+     padding: 20px 0px;
+}
+
+footer a {
+     text-decoration: underline;
+     text-transform: uppercase;
+}
