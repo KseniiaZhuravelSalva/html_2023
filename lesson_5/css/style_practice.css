@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+h1 {
+     font-family: 'Popppins', sans-serif;
+     color: rgba(0, 0, 0, 0.658);
+     font-weight: 700;
+     font-size: 30px;
+     text-align: center;
+     padding-top: 50px;
+}
+
+footer {
+     font-family: 'Popppins', sans-serif;
+     color: rgba(0, 0, 0, 0.658);
+     font-weight: 400;
+     font-size: 18px;
+     text-align: center;
+     text-decoration: underline;
+}
+
+.container {
+     background-color: #064444;
+     margin: 50px 50px;
+}
+
+.content {
+     background-color: #187070;
+     padding: 50px;
+     
+}
+
+.content-block {
+     background-color: #0eb8b8;
+     padding: 50px 50px 50px 50px;
+     height: 1100px;
+     overflow-y: scroll;
+}
+
+.content-text {
+     font-family: 'Popppins', sans-serif;
+     background-color: #233333;
+     padding: 50px;
+}
+
+.text {
+     background-color: #475757;
+     padding: 50px 50px 50px 50px;
+     margin-bottom: 50px;
+}
+
+p {
+     text-indent: 30px;
+     text-align: justify;
+     line-height: 1.7;
+}
+
+span {
+     background-color: #c1d8d8;
+     display: block;
+     margin-top: 50px;
+     padding: 50px;
+     text-align: center;
+}
+
+img {
+     background-color: #535353;
+     padding: 50px;
+     margin-bottom: 50px;
+}
+
+ul {
+     font-size: 0;
+     padding: 50px;
+     background-color: rgb(191, 235, 235);
+}
+
+li {
+     background-color: #032c2c;
+     color: #a4c4e9;
+     font-size: 18px;
+     display: inline-block;
+     margin: 0px 10px 0px 10px;
+     padding: 50px;
+}
