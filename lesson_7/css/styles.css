@@ -1,0 +1,199 @@
+@import url("reset.css");
+
+@font-face {
+     font-family: 'Poppins-Bold';
+     src: url('../fonts/Poppins-Bold.woff2') format('woff2'), url('../fonts/Poppins-Bold.woff') format('woff');
+     font-weight: 700;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Poppins-Light';
+     src: url('../fonts/Poppins-Light.woff2') format('woff2'), url('../fonts/Poppins-Light.woff') format('woff');
+     font-weight: 300;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Inter-Bold';
+     src: url('../fonts/Inter-Bold.woff2 format.woff2') format('woff2'), url('../fonts/Inter-Bold.woff') format('woff');
+     font-weight: 700;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Inter-SemiBold';
+     src: url('../fonts/Inter-SemiBold.woff2') format('woff2'), url('../fonts/Inter-SemiBold.woff') format('woff');
+     font-weight: 600;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Inter-Regular';
+     src: url('../fonts/Inter-Regular.woff2') format('woff2'), url('../fonts/Inter-Regular.woff') format('woff');
+     font-weight: 400;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Inter-Medium';
+     src: url('../fonts/Inter-Medium.woff2') format('woff2'), url('../fonts/Inter-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+}
+
+.section-background-skyscraper {
+     background-image: url("../img/image_1.png");
+     background-repeat: no-repeat;
+     min-height: 600px;
+     background-size: 100%;
+}
+
+.skyscraper-content {
+     max-width: 1270px;
+     margin: 0 auto;
+     padding: 330px 15px 100px;
+     color: #E5E5E5;
+}
+
+.skyscraper-content-width {
+     max-width: 605px;
+}
+
+.skyscraper-date, .skyscraper-text {
+     font-family: 'Poppins-Light', sans-serif;
+     font-size: 12px;
+     line-height: 1.6;
+}
+
+.skyscraper-date, .skyscraper-content h2 {
+     margin-bottom: 15px;
+}
+
+.skyscraper-content h2 {
+     font-family: 'Poppins-Bold', sans-serif;
+     font-size: 25px;
+     line-height: 1.6;
+
+}
+
+.section-audiospeaker {
+     min-height: 560px;
+     background: url("../img/speaker.png") 73% no-repeat, linear-gradient(293deg, rgba(0,0,0,0) 0%, rgba(48,86,211,0.08) 50%, rgba(0,0,0,0) 50%) 300px no-repeat, linear-gradient(293deg, rgba(0,0,0,0) 0%, rgba(48,86,211,0.08) 50%, rgba(0,0,0,0) 50%) 385px no-repeat, #F4F7FF;
+}
+
+.audiospeaker-content{
+     padding: 145px 15px 146px;
+     margin: 0 auto;
+     max-width: 1220px;
+}
+
+.audiospeaker-content-width {
+     max-width: 570px;
+}
+
+.audiospeaker-price, .audiospeaker-button {
+     font-family: 'Inter-SemiBold',sans-serif;
+}
+
+.audiospeaker-button, .audiospeaker-description, .button  {
+     font-size: 16px;
+     line-height: 1.5;
+}
+
+.audiospeaker-price {
+     font-size: 18px;
+     line-height: 1.33;
+     color: #3056D3;
+     margin-bottom: 13px;
+}
+
+.audiospeaker-content h2 {
+     max-width: 470px;
+     font-family: 'Inter-Bold', sans-serif;
+     font-size: 36px;
+     line-height: 1.25;
+     color: #212B36;
+     margin-bottom: 15px;
+}
+
+.audiospeaker-description {
+     font-family: 'Inter-Medium', sans-serif;
+     color: #637381;
+     margin-bottom: 35px;
+}
+
+
+.audiospeaker-button, .button {
+     display: inline-block;
+     padding: 10px 30px;
+     color: #FFFFFF;
+     background-color: #3056D3;
+     border-radius: 30px;
+}
+
+footer {
+     text-align: center;
+     padding: 20px;
+}
+
+.button {
+     font-family: 'Inter-Medium', sans-serif;
+	border: 2px solid #8197df;
+	box-shadow: 0 7px 1px 1px #18213d;
+	position: relative;
+	top: 0;
+	transition: all 0.1s;
+}
+
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 1px 1px #18213d;
+}
+
+.section-lists {
+     margin: 0px 160px 0px 135px;
+}
+
+.section-lists h2 {
+     font-family: 'Inter-Regular', sans-serif;
+     font-size: 26px;
+     line-height: 1.1;
+     margin-bottom: 45px;
+}
+
+.section-lists ul {
+     font-family: 'Inter-Bold', sans-serif;
+     font-size: 16px;
+     color: #637381;
+     max-width: 309px;
+     line-height: 1.25;
+     margin-bottom: 60px;
+}
+
+li {
+     margin-bottom: 18px;
+     min-height: 20px;
+     padding-left: 30px;
+}
+
+.blue-dot li{
+     background: url('../img/blue_dot.png') 0px 6px no-repeat;
+     padding-left: 18px;
+}
+.blue-tick li{
+     background: url('../img/blue_tick.png') no-repeat;
+}
+.green-tick li{
+     background: url('../img/green_tick.png') no-repeat;
+}
+.red-x li{
+     background: url('../img/red_x.png') no-repeat;
+}
+.blue-arrow li{
+     background: url('../img/blue_arrow.png') no-repeat;
+}
+.blue-star li{
+     background: url('../img/blue_star.png') no-repeat;
+     padding-left: 28px;
+}
