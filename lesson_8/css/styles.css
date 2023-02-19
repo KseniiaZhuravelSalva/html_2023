@@ -1,0 +1,184 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+/* __________________________________________________________Section_skyscraper */
+.section-skyscraper {
+     background-image: url("../img/image_1.png");
+     background-repeat: no-repeat;
+     min-height: 600px;
+     background-size: 100%;
+}
+.skyscraper-block {
+     max-width: 1270px;
+     margin: 0 auto;
+     padding: 330px 15px 100px;
+     color: #E5E5E5;
+}
+.skyscraper-content {
+     max-width: 605px;
+}
+.skyscraper-date, .skyscraper-text {
+     font-family: 'Poppins-Light', sans-serif;
+     font-size: 12px;
+     line-height: 1.6;
+}
+.skyscraper-date, .skyscraper-block h2 {
+     margin-bottom: 15px;
+}
+.skyscraper-block h2 {
+     font-family: 'Poppins-Bold', sans-serif;
+     font-size: 25px;
+     line-height: 1.6;
+}
+
+/* _____________________________________________________________Section_speaker */
+.section-speaker {
+     min-height: 560px;
+     background: 73% no-repeat, linear-gradient(293deg, rgba(0,0,0,0) 0%, rgba(48,86,211,0.08) 50%, rgba(0,0,0,0) 50%) 300px no-repeat, linear-gradient(293deg, rgba(0,0,0,0) 0%, rgba(48,86,211,0.08) 50%, rgba(0,0,0,0) 50%) 385px no-repeat, #F4F7FF;
+}
+.speaker-block {
+     margin: 0 auto;
+     padding: 145px 15px 146px;
+     max-width: 1220px;
+     font-size: 0px;
+}
+.speaker-content > *{
+     max-width: 570px;
+}
+.speaker-image, .speaker-content {
+     vertical-align: middle;
+     display: inline-block;
+     width: 100%;
+}
+.speaker-image {
+     text-align: right;
+}
+.speaker-content{
+     margin-left: -100%;
+}
+.speaker-image img {
+     min-width: 272px;
+     margin-right: 84px;
+}
+.speaker-content > *:last-child {
+     margin-bottom: 0;
+}
+.speaker-price, .speaker-button {
+     font-family: 'Inter-SemiBold',sans-serif;
+}
+.speaker-button, .speaker-description, .button  {
+     font-size: 16px;
+     line-height: 1.5;
+}
+.speaker-price {
+     font-size: 18px;
+     line-height: 1.33;
+     color: #3056D3;
+     margin-bottom: 13px;
+}
+.speaker-block h2 {
+     font-family: 'Inter-Bold', sans-serif;
+     font-size: 36px;
+     line-height: 1.25;
+     color: #212B36;
+     margin-bottom: 15px;
+}
+.speaker-description {
+     font-family: 'Inter-Medium', sans-serif;
+     color: #637381;
+     margin-bottom: 35px;
+}
+.speaker-button, .button {
+     display: inline-block;
+     padding: 10px 30px;
+     color: #FFFFFF;
+     background-color: #3056D3;
+     border-radius: 30px;
+}
+.speaker-button:hover {
+     background-color: #1d306b;
+     color: #1d47c5;
+     transition: all 0.3s;
+}
+.speaker-button:active {
+     background-color: #5f6064;
+     color: #898c9b;
+}
+
+/* _____________________________________________________________Section_lists */
+.section-lists {
+     max-width: 1440px;
+     margin: 0px auto;
+}
+.section-lists h2 {
+     font-family: 'Inter-Regular', sans-serif;
+     font-size: 26px;
+     line-height: 1.1;
+     margin-bottom: 45px;
+}
+.section-lists ul {
+     font-family: 'Inter-Bold', sans-serif;
+     font-size: 16px;
+     color: #637381;
+     line-height: 1.25;
+     margin-bottom: 60px;
+}
+.section-lists ul:last-child {
+     margin-bottom: 0px;
+}
+li {
+     min-height: 20px;
+     padding-left: 30px;
+}
+li:not(:last-child) {
+     margin-bottom: 18px;
+}
+.lists-lists ul:first-child li {
+     background: url('../img/blue_dot.png') 0px 6px no-repeat;
+     padding-left: 18px;
+}
+.lists-lists ul:nth-child(02) li{
+     background: url('../img/blue_tick.png') no-repeat;
+}
+.lists-lists ul:nth-child(03) li{
+     background: url('../img/green_tick.png') no-repeat;
+}
+.lists-lists ul:nth-last-child(03) li{
+     background: url('../img/red_x.png') no-repeat;
+}
+.lists-lists ul:nth-last-child(02) li{
+     background: url('../img/blue_arrow.png') no-repeat;
+}
+.lists-lists ul:last-child li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/blue_star.png") 0 0 no-repeat;
+     width: 20px;
+	height: 20px;
+     margin-left: -26px;
+	margin-right: 10px;
+     vertical-align: middle;
+}
+
+/* _____________________________________________________________Footer */
+footer {
+     text-align: center;
+     padding: 20px;
+}
+.button {
+     font-family: 'Inter-Medium', sans-serif;
+	border: 2px solid #8197df;
+	box-shadow: 0 7px 1px 1px #18213d;
+	position: relative;
+	top: 0;
+	transition: all 0.1s;
+}
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 1px 1px #18213d;
+     background-color: #16328d;
+}
+.button:active {
+	color: #8396d3;
+}
