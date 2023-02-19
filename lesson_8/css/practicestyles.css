@@ -1,0 +1,159 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+body {
+     font-family: 'Poppins-Light', sans-serif;
+     font-size: 18px;
+     line-height: 1.7;
+}
+
+.body {
+     min-height: 100%;
+     background: rgba(236, 132, 227, 0.212) linear-gradient(100deg, rgba(255,255,255,0) 10%, rgba(32,53,124,0.8575805322128851) 10%, rgba(32,53,124,0.3897934173669467) 75%) no-repeat;
+}
+
+/* __________________________________________________________________Main */
+.container {
+     max-width: 1440px;
+     margin: 0 auto;
+     padding: 0px 15px;
+}
+
+h1 {
+     font-family: 'Poppins-Bold', sans-serif;
+     font-size: 25px;
+     line-height: 2.2;
+     text-align: center;
+}
+
+.paraghraph, ul {
+     margin-bottom: 30px;
+}
+
+.paraghraph p {
+     max-width: 680px;
+     text-align: justify;
+}
+
+.paraghraph p:nth-child(even) {
+     color: #e4dbdb;
+}
+
+.paraghraph p:nth-child(odd) {
+     color: #cf7e7e;
+}
+
+.paraghraph p:not(:last-of-type) {
+     margin-bottom: 20px;
+}
+
+.paraghraph p:nth-of-type(even)::after {
+     content: "➜";
+     font-size: 25px;
+     display: inline-block;
+     color: #18213d;
+     transition: all 0.2s;
+}
+
+.paraghraph p:nth-of-type(even):hover::after {
+     margin-left: 50px;
+	transform: rotate(220deg) scale(1.1);
+}
+
+.paraghraph p:nth-of-type(odd)::after {
+     content: "➜";
+     font-size: 25px;
+     display: inline-block;
+     color: #5c0e3e;
+     transition: all 0.2s;
+}
+
+.paraghraph p:nth-of-type(odd):hover::after {
+     margin-left: 50px;
+	transform: rotate(-140deg) scale(1.1);
+}
+
+.block {
+     font-family: 'Inter-Medium', sans-serif;
+     min-height: 100px;
+     outline: 3px dotted #333333;
+     border-radius: 30px;
+     margin: 3px 3px 33px;
+}
+
+.block-content {
+     background: linear-gradient(90deg, rgba(103,19,159,1) 0%, rgba(72,240,247,1) 50%, rgba(247,124,247,1) 100%);
+     border-radius: 30px;
+	padding: 15px;
+	color: #e9e8e8;
+     text-align: justify;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.block:hover .block-content {
+	visibility: visible;
+	opacity: 1;
+}
+
+ul {
+     font-family: 'Inter-Regular', sans-serif;
+     font-size: 20px;
+     text-align: center;
+}
+
+ul li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/red_x.png") 0 0 no-repeat;
+     vertical-align: middle;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	transition: all 0.2s;
+}
+
+ul li:hover::before {
+     background: url("../img/blue_tick.png") 0 0 no-repeat;
+	transform: scale(2);
+}
+
+li:hover {
+     color: #e4dbdb;
+}
+
+/* __________________________________________________________________Footer */
+footer {
+     text-align: center;
+}
+
+.button {
+     font-family: 'Inter-SemiBold', sans-serif;
+	border: 2px solid #8197df;
+     display: inline-block;
+     padding: 10px 30px;
+     color: #FFFFFF;
+     background-color: #3056D3;
+     border-radius: 30px;
+	box-shadow: 0 7px 1px 1px #18213d;
+	position: relative;
+	top: 0;
+	transition: all 0.1s;
+     margin-bottom: 5px;
+}
+
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 1px 1px #18213d;
+     background-color: #16328d;
+}
+
+.button:active {
+	color: #8396d3;
+}
+
+footer :last-child {
+padding-bottom: 10px;
+}
