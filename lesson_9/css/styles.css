@@ -1,0 +1,62 @@
+@import url("reset.css");
+
+@import url("fonts.css");
+
+body {
+     font-family: 'Poppins-Light', sans-serif;
+     font-size: 18px;
+     background: url('../img/background/background_1.webp');
+     background-position: center;
+     color: #ffffff;
+}
+header, footer {
+     background-color: #4a6afa;
+     text-align: center;
+}
+header {
+     padding: 10px 0px;
+}
+h1 {
+     font-family: 'Poppins-Bold', sans-serif;
+     font-size: 30px;
+}
+main {
+     max-width: 1470px;
+     margin: 0 auto;
+     padding: 25px;
+}
+.container {
+     background-color: #8f8d8d;
+     border: 3px solid #ffffff;
+     border-radius: 40px;
+     padding: 15px 10px;
+     text-align: center;
+}
+h2 {
+     font-family: 'Poppins-Bold', sans-serif;
+     font-size: 18px;
+     line-height: 1.8;
+     background-color: #5b68a0;
+     max-width: 860px;
+     margin: 0 auto;
+     border-radius: 7px;
+}
+p {
+     margin-bottom: 15px;
+     line-height: 1.7;
+}
+.icons__retreat :nth-child(7) {
+margin-bottom: 30px;
+}
+img:not(:last-of-type) {
+     margin-bottom: 5px;
+}
+img {
+     max-width: 320px;
+}
+.content-design__retreat :last-child {
+     max-width: 100%;
+}
+[class*="__retreat"]:not(:last-of-type) {
+     margin-bottom: 30px;
+}
